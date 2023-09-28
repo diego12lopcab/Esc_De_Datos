@@ -6,10 +6,7 @@ n=[3,4,5]
 print(n)
 print(n[2])
 
-c=["d","i","e","g","o"]
+c= ['l', 'u', 'i', 's'];
 print (c)
 print(c[0])
 print(c[1])
-
-
-
