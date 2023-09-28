@@ -10,16 +10,21 @@ int main(int argc,char*argv[])
 	
 	//leer array
 	for(f=0;f<maxf;f++)
-	 for(c=0;c<maxc;c++);
-	cin>>a[f][c];
+	{
 	
+	 for(c=0;c<maxc;c++){
+	cin>>a[f][c];
+    }
+}
 	//escribir array
 	for(f=0;f<maxf;f++)
 	{
-		for(c=0;c<maxc;c++)
+		for(c=0;c<maxc;c++){
 		cout<<a[f][c];
 		cout<<endl;
 	}
+}
 	system("PAUSE");
 	return EXIT_SUCCESS;
  } 
+
