@@ -12,8 +12,9 @@ int main(){
     std::cout<<n[1];
     std::cout<<n[2];
     
-    char c[]={"d","i","e","g","o"}; 
-	std::cout<<c[3];
+  char c[] = {'l', 'u', 'i', 's'};
+    std::cout << c[0] << std::endl;
+
 	
 	char s[]={"mona lisa"}; 
 	std::cout<<s[8];
