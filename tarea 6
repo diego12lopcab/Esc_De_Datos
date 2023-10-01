@@ -1,0 +1,28 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main()
+{
+	//declara un vector de cadenas
+	vector<string>aves={"loro gris","paloma de diamante","Coctel"};
+	cout<<"los valores del vector antes de incertar:\n";
+	//itera sobre el vector para imprimir los valores
+	for(int i=0;i<aves.size();++i)
+	{
+		cout<<aves[i]<<"";
+	}
+	cout<<"\n";
+	//agrega ter valores al final del vector utilizando push_back()
+	aves.push_back("mayna");
+	aves.push_back("periquitos");
+	aves.push_back("cacatua");
+	cout<<"los valores del vector despues de insectar:\n";
+	//itera sobre el vector para imrprimir los valores
+	for(int i=0;i<aves.size();++i)
+	{
+		cout<<aves[i]<<"";
+	}
+	cout<<"\n";
+	return 0;
+}
