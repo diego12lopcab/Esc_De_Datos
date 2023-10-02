@@ -1,6 +1,6 @@
 maxf=3
 maxc=5
-a=[[0.0]*maxc for_in range(maxf)]
+a=[[0.0]*maxc for _ in range(maxf)]
 
 #leer el array
 for f in range(maxf):
