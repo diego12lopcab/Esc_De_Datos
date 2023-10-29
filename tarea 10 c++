@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std; 
+
+int sumaIterativa(int n) {
+    int suma = 0;
+    while (n > 9) {
+        suma += n % 10;
+        n /= 10;
+    }
+    return suma + n;
+}
+
+int sumaRecursiva(int n) {
+    if (n < 10)
+        return n;
+    else
+        return sumaRecursiva(n / 10) + n % 10;
+}
+
+int main() {
+    int numero;
+    cout << "Ingrese un numero entero: ";
+    cin >> numero;
+
+    int resultadoIterativo = sumaIterativa(numero);
+    int resultadoRecursivo = sumaRecursiva(numero);
+
+    cout << "La suma de los digitos de forma iterativa es: " << resultadoIterativo << endl;
+    cout << "La suma de los digitos de forma recursiva es: " << resultadoRecursivo << endl;
+
+    return 0;
+}
